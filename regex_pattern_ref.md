@@ -3,10 +3,10 @@
 
 | 🔤 Regex Pattern                                              | 🔍 Matches / Description                     | 💀 Likely Families                          |
 |--------------------------------------------------------------|----------------------------------------------|---------------------------------------------|
-| `token=.*?(&|$)`                                             | Discord tokens, webhook stealers             | Various stealer families                    |
+| `token=.*?(&\$)`                                             | Discord tokens, webhook stealers             | Various stealer families                    |
 | `panel.php\ngate.php\nsubmit.php`                          | C2 PHP panel endpoints                       | FormBook, RedLine, Vidar, AsyncRAT          |
 | `(smtp\|ftp)\.(yandex\|mail)`                             | Email-based exfil (SMTP/FTP)                 | Agent Tesla, SnakeKeylogger, LokiBot        |
-| `task_id=|bot_id=`                                           | Loader task assignment / C2 parameters       | Loda RAT, TA558, DarkGate                   |
+| `task_id=\bot_id=`                                           | Loader task assignment / C2 parameters       | Loda RAT, TA558, DarkGate                   |
 | `(cookies\|logins\|wallet)\.(sqlite\|json)`              | Browser data stealers (cookies, wallets)     | Vidar, Lumma, Taurus                        |
 | `raw\.githubusercontent\.com/.+?\.ps1`                    | Remote PowerShell payload                    | AsyncRAT, TA578, Amadey                     |
 | `discord(app)?\.com/api/webhooks`                          | Discord webhook exfil                        | Mystic, Anarchy, Blank Grabber              |
