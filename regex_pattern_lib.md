@@ -1,5 +1,5 @@
 
-# 🧪 Regex Pattern Reference (Malware Artifact Detection)
+# Regex Pattern Reference (Malware Artifact Detection)
 
 | 🔤 Regex Pattern                                        | 🔍 Matches / Description                     | 💀 Likely Families                          |
 |--------------------------------------------------------|----------------------------------------------|---------------------------------------------|
