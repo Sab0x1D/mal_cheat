@@ -1,7 +1,7 @@
 
 # Regex Pattern Reference (Malware Artifact Detection)
 
-| 🔤 Regex Pattern                                              | 🔍 Matches / Description                     | 💀 Likely Families                          |
+| Regex Pattern                                              | Matches / Description                     | Likely Families                          |
 |--------------------------------------------------------------|----------------------------------------------|---------------------------------------------|
 | `token=.*?(&\$)`                                             | Discord tokens, webhook stealers             | Various stealer families                    |
 | `panel.php\ngate.php\nsubmit.php`                          | C2 PHP panel endpoints                       | FormBook, RedLine, Vidar, AsyncRAT          |
