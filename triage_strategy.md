@@ -21,7 +21,7 @@ Below is a **flow-style breakdown** of how you can pivot from behavior → to su
 
 ---
 
-## 2. 🛰Network Traffic & C2 Patterns *(Fiddler / Wireshark)*
+## 2. Network Traffic & C2 Patterns *(Fiddler / Wireshark)*
 
 | C2 Artifact                                | Family Hit                                  |
 |-------------------------------------------|---------------------------------------------|
