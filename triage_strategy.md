@@ -1,11 +1,11 @@
 
-# 🔍 Narrowing Family Based on Artifacts
+# Narrowing Malware Family Based on Artifacts
 
-Here’s a **flow-style breakdown** of how you can pivot from behavior → to suspects → to family:
+Below is a **flow-style breakdown** of how you can pivot from behavior → to suspects → to family:
 
 ---
 
-## 1. 🔎 Process Behavior & Chain *(Process Hacker / Autoruns)*
+## 1. Process Behavior & Chain *(Process Hacker / Autoruns)*
 
 | Seen Behavior                                 | Likely Family Clues                       |
 |----------------------------------------------|-------------------------------------------|
@@ -21,7 +21,7 @@ Here’s a **flow-style breakdown** of how you can pivot from behavior → to su
 
 ---
 
-## 2. 🛰️ Network Traffic & C2 Patterns *(Fiddler / Wireshark)*
+## 2. 🛰Network Traffic & C2 Patterns *(Fiddler / Wireshark)*
 
 | C2 Artifact                                | Family Hit                                  |
 |-------------------------------------------|---------------------------------------------|
@@ -37,7 +37,7 @@ Here’s a **flow-style breakdown** of how you can pivot from behavior → to su
 
 ---
 
-## 3. 📁 Dropped File Content *(FileGrab / Unusual Artifacts)*
+## 3. Dropped File Content *(FileGrab / Unusual Artifacts)*
 
 | Artifact Found                          | Family Hit                                 |
 |----------------------------------------|--------------------------------------------|
@@ -52,7 +52,7 @@ Here’s a **flow-style breakdown** of how you can pivot from behavior → to su
 
 ---
 
-## 4. 🧪 Strings, Configs, or Mutex Names *(PEStudio, FLOSS, strings)*
+## 4. Strings, Configs, or Mutex Names *(PEStudio, FLOSS, strings)*
 
 | String / Config                        | Family Clue                                 |
 |---------------------------------------|---------------------------------------------|
@@ -67,7 +67,7 @@ Here’s a **flow-style breakdown** of how you can pivot from behavior → to su
 
 ---
 
-## 🧩 Putting It All Together: Mini Workflow
+## Putting It All Together: Mini Workflow Summary
 
 1. Start with **process chain** → find suspicious child or unusual binary.  
 2. Use that to pivot into **network traffic** or **dropped file** (e.g. `.vbs`, `.ps1`, etc.).  
@@ -79,4 +79,4 @@ Then combine with:
 - Does it **steal creds**, **log keys**, create **overlays**?
 - Is it **.NET**, **VBScript**, **AutoIt**?
 
-You’ll almost always land in the correct malware family group (*stealer, RAT, loader*), then narrow to 1–2 names.
+You’ll almost always land in the correct malware family group (*stealer, RAT, loader*), then narrow to 1–2 names. Good luck.
