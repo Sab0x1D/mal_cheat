@@ -1,5 +1,5 @@
 
-# 🧪 How to Use This Matrix
+# How to Use This Matrix
 
 **Step 1:** Observe processes (Process Hacker, Autoruns)  
 **Step 2:** Identify C2 patterns (URIs, domains, traffic in Fiddler)  
