@@ -25,12 +25,11 @@ If you use or adapt this work:
 
 ---
 
-## Contact
 ## 🔐 GPG Public Key
 
-**Sab0x1D** (Threat Analyst · Ghost-backed)  
+**Sab0x1D**   
 Email: `sab0x1d@disroot.org`  
-🔑 Fingerprint: `3D9F B4C2 9D87 4E24 57FF  EFD1 CDEE DEE3 67F7 DFCE`  
+🔑 Fingerprint: `7095 4B8F 7C6C 5F3C 9C2D  B5BE F39C 180A F044 4612`  
 
 [📎 sab0x1d.asc] 
 
