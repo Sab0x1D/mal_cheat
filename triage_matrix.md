@@ -8,7 +8,7 @@
 
 ---
 
-| 🔍 Process / Artifact        | 🌐 C2 Pattern / String           | 💀 Suspected Malware Family          | 🧠 Behavior / Notes                                                  |
+| Process / Artifact        | C2 Pattern / String           | Suspected Malware Family          | Behavior / Notes                                                  |
 |-----------------------------|----------------------------------|--------------------------------------|---------------------------------------------------------------------|
 | regasm.exe, InstallUtil.exe | smtp.yandex.com, Send-Mail       | Agent Tesla, SnakeKeylogger          | .NET stealer, SMTP exfil, logs to .zip/.txt                         |
 | powershell -EncodedCommand  | pastebin.com/raw/                | AsyncRAT, njRAT, Remcos              | Base64 config or payload, remote code exec                          |
